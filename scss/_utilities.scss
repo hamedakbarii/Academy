@@ -1,0 +1,84 @@
+// --- Position ---
+.pos-relative {
+	position: relative;
+}
+.pos-absolute {
+	position: absolute;
+}
+
+// --- Z-index ---
+.z-1 {
+	z-index: 1;
+}
+.z-9 {
+	z-index: 9;
+}
+.z-99 {
+	z-index: 99;
+}
+
+// --- Margin ---
+.my-10 {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+.my-14 {
+	margin-top: 14rem;
+	margin-bottom: 14rem;
+}
+
+// --- Shadow ---
+.shadow-sm {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.shadow-1 {
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.shadow-2 {
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+
+// --- Width ---
+.w-100 {
+	width: 100%;
+}
+
+// --- *** ---
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.d-none {
+	display: none !important;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.rightp {
+	padding-right: 0 !important;
+}
