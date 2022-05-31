@@ -227,7 +227,7 @@ main {
 		width: 100%;
 
 		.mycourses__wrapper {
-			padding-top: 2rem;
+			padding-top: 3rem;
 
 			.mycourses__title {
 				display: flex;
@@ -244,6 +244,7 @@ main {
 			}
 
 			.mycourses__table {
+				padding-top: 2rem;
 				.mycourses__table--title {
 					.table__title {
 						display: flex;
@@ -258,7 +259,7 @@ main {
 
 						.table__title--right {
 							p {
-								padding: 1.55rem;
+								padding-right: 1.55rem;
 								color: var(--gray-color);
 							}
 							.rightp {
@@ -302,6 +303,9 @@ main {
 							p {
 								padding-right: 1.5rem;
 							}
+							.pf {
+								padding-right: 1.6rem;
+							}
 						}
 					}
 					.second {
@@ -335,6 +339,7 @@ main {
 							}
 						}
 					}
+
 					.fourth {
 						.table__bottom--left {
 							.bottom__left-i {
@@ -350,6 +355,7 @@ main {
 							}
 						}
 					}
+
 					.fifth {
 						.bottom__left-i {
 							i {
@@ -362,10 +368,16 @@ main {
 			}
 		}
 	}
+
+	.pff {
+		padding-right: 1.6rem !important;
+	}
+	.pfff {
+		padding-right: 1.6rem !important;
+	}
 }
 
 #aside__right {
-	// padding-right: 0.1rem;
 	.aside__right--wrapper {
 		.aside__right--title {
 			display: flex;
@@ -405,7 +417,6 @@ main {
 		}
 
 		.aside__right--calender {
-			padding-top: 1rem;
 			/* Month header */
 			.month {
 				padding: 1rem;
@@ -431,12 +442,14 @@ main {
 			.month .prev {
 				float: left;
 				padding-top: 10px;
+				cursor: pointer;
 			}
 
 			/* Next button */
 			.month .next {
 				float: right;
 				padding-top: 10px;
+				cursor: pointer;
 			}
 
 			/* Weekdays (Mon-Sun) */
@@ -466,16 +479,21 @@ main {
 			.days li {
 				list-style-type: none;
 				display: inline-block;
-				width: 13.6%;
+				width: 18.6%;
 				text-align: center;
 				margin-bottom: 5px;
 				font-size: 12px;
 				color: #777;
+
+				&:hover {
+					background-color: #1abc9c;
+					color: snow;
+				}
 			}
 
 			/* Highlight the "current" day */
 			.days li .active {
-				padding: 5px;
+				padding: 0 1.3rem;
 				background: #1abc9c;
 				color: white !important;
 			}
@@ -555,7 +573,7 @@ main {
 					}
 				}
 
-				.active {
+				.colored {
 					background-color: var(--primary-color);
 					color: var(--white-color);
 

@@ -566,7 +566,7 @@ main .main__mycourses {
 }
 
 main .main__mycourses .mycourses__wrapper {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 main .main__mycourses .mycourses__wrapper .mycourses__title {
@@ -589,6 +589,10 @@ main .main__mycourses .mycourses__wrapper .mycourses__title a:hover {
   color: var(--primary-color);
 }
 
+main .main__mycourses .mycourses__wrapper .mycourses__table {
+  padding-top: 2rem;
+}
+
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--title .table__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -606,7 +610,7 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--t
 }
 
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--title .table__title .table__title--right p {
-  padding: 1.55rem;
+  padding-right: 1.55rem;
   color: var(--gray-color);
 }
 
@@ -654,6 +658,10 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
   padding-right: 1.5rem;
 }
 
+main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .table__bottom--item .table__bottom--right .pf {
+  padding-right: 1.6rem;
+}
+
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .second .table__bottom--left .bottom__left-i i {
   background-color: #c2ecf4;
   color: #1d99b2;
@@ -684,6 +692,14 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .fifth .bottom__left-i i {
   background-color: #fef1e1 !important;
   color: #fdab5f !important;
+}
+
+main .pff {
+  padding-right: 1.6rem !important;
+}
+
+main .pfff {
+  padding-right: 1.6rem !important;
 }
 
 #aside__right .aside__right--wrapper .aside__right--title {
@@ -746,7 +762,6 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
 }
 
 #aside__right .aside__right--wrapper .aside__right--calender {
-  padding-top: 1rem;
   /* Month header */
   /* Month list */
   /* Previous button inside month header */
@@ -778,11 +793,13 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
 #aside__right .aside__right--wrapper .aside__right--calender .month .prev {
   float: left;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 #aside__right .aside__right--wrapper .aside__right--calender .month .next {
   float: right;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 #aside__right .aside__right--wrapper .aside__right--calender .weekdays {
@@ -816,15 +833,20 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
 #aside__right .aside__right--wrapper .aside__right--calender .days li {
   list-style-type: none;
   display: inline-block;
-  width: 13.6%;
+  width: 18.6%;
   text-align: center;
   margin-bottom: 5px;
   font-size: 12px;
   color: #777;
 }
 
+#aside__right .aside__right--wrapper .aside__right--calender .days li:hover {
+  background-color: #1abc9c;
+  color: snow;
+}
+
 #aside__right .aside__right--wrapper .aside__right--calender .days li .active {
-  padding: 5px;
+  padding: 0 1.3rem;
   background: #1abc9c;
   color: white !important;
 }
@@ -910,12 +932,12 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
   color: var(--gray-color);
 }
 
-#aside__right .aside__right--wrapper .aside__right--Homework .right__homework--items .active {
+#aside__right .aside__right--wrapper .aside__right--Homework .right__homework--items .colored {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
 
-#aside__right .aside__right--wrapper .aside__right--Homework .right__homework--items .active .overlay {
+#aside__right .aside__right--wrapper .aside__right--Homework .right__homework--items .colored .overlay {
   background-color: var(--primary-color) !important;
   padding-top: 16%;
 }
