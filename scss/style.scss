@@ -259,7 +259,7 @@ main {
 
 						.table__title--right {
 							p {
-								padding-right: 1.55rem;
+								padding-right: 3.5rem;
 								color: var(--gray-color);
 							}
 							.rightp {
@@ -271,10 +271,18 @@ main {
 
 				.mycourses__table--bottom {
 					.table__bottom--item {
-						padding-top: 0.5rem;
+						padding: 0.5rem;
+						border-radius: 0.5rem;
 						display: flex;
 						justify-content: space-between;
 						align-items: center;
+						transition: all 0.3s ease;
+						cursor: pointer;
+
+						&:hover {
+							background-color: var(--primary-color);
+							color: var(--white-color);
+						}
 
 						.table__bottom--left {
 							.bottom__left-i {
@@ -500,7 +508,7 @@ main {
 		}
 
 		.aside__right--Homework {
-			padding-top: 1rem;
+			padding-top: 4rem;
 
 			.right__homework--items {
 				.right__homework--item {

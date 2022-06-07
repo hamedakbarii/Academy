@@ -3,7 +3,7 @@
   --primary-color: #8a70d6;
   --secondary-color: #e9e3ff;
   --lightpink-color: #dfcde5;
-  --gray-color: #b7b4b4;
+  --gray-color: #a9a9a9;
   --white-color: #fbfbfb;
   --bg-color: #fafafa;
   --dark-color: #0d0c0d;
@@ -610,7 +610,7 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--t
 }
 
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--title .table__title .table__title--right p {
-  padding-right: 1.55rem;
+  padding-right: 3.5rem;
   color: var(--gray-color);
 }
 
@@ -619,7 +619,8 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--t
 }
 
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .table__bottom--item {
-  padding-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,6 +630,14 @@ main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--b
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .table__bottom--item:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }
 
 main .main__mycourses .mycourses__wrapper .mycourses__table .mycourses__table--bottom .table__bottom--item .table__bottom--left .bottom__left-i i {
@@ -852,7 +861,7 @@ main .pfff {
 }
 
 #aside__right .aside__right--wrapper .aside__right--Homework {
-  padding-top: 1rem;
+  padding-top: 4rem;
 }
 
 #aside__right .aside__right--wrapper .aside__right--Homework .right__homework--items .right__homework--item {
